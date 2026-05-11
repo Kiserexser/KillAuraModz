@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura",
+  "version": "1.0.0",
+  "name": "KillAura",
+  "description": "KillAura mod - attack entities within 3 blocks on R key",
+  "authors": ["Swill"],
+  "entrypoints": {
+    "main": ["com.swill.killaura.KillAuraMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
